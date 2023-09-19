@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            list-style: none;
+            background-color: rgb(26, 77, 26);
+            color: white;
+        }
+
+        span {
+            position: absolute;
+            transform: translateY(48%);
+            margin-left: 10px;
+        }
+
+        .nav img {
+            width: 35px;
+            border-radius: 50px;
+        }
+
+        .content {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav a:hover {
+            font-weight: 400;
+            color: burlywood;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 595px;
+            line-height: 2em;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            background-color: bisque;
+            height: 45px;
+            align-items: center;
+            font-weight: 600;
+            margin-top: 25px;
+        }
+
+        .welcome {
+            font-size: 45px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        button {
+            border: none;
+            padding: 15px;
+            background-color: cadetblue;
+            color: white;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+<div class="body">
+
+    <nav class="nav">
+
+        <div class="profile">
+            <img src="images/profilepic.png" alt="">
+            <span><a href="https://twitter.com/lereofafrica" target="_blank">Yusuf Olanrewaju</a></span>
+        </div>
+        
+        <div class="content">
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="formtableHW.html">Form Table1</a></li>
+            <li><a href="formtablescw.html">Form Table2</a></li>
+            <li><a href="text.html">Google</a></li>
+            <li><a href="survey_form.html">Survey Form</a></li>
+            <li><a href="assessment.html">Color Tabs</a></li>
+            <li><a href="reg_form.html">Reg form</a></li>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main">
+            <div class="welcome">Welcome</div>
+            <div class="chk">
+                Check the  navigation tab above to see pages <br> OR <br>
+                Click the button below to go to the latest page.
+            </div>
+            <a href="formtableHW.html"><button>Check Latest</button></a>
+        </div>
+    </main>
+
+    <footer>
+        Copyright&nbsp;&nbsp; Yusuf &trade; &nbsp; 2023 &copy;
+    </footer>
+
+</div>
+
+</body>
+</html>
